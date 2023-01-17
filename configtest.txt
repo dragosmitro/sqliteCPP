@@ -1,0 +1,15 @@
+CREATE TABLE tabela (coloana1, text, 20, test), (coloana2, text, 20, test2)
+INSERT INTO tabela VALUES (valoare1, valoare2)
+INSERT INTO tabela VALUES (valoare1, valoare2)
+INSERT INTO tabela VALUES (valoare2, valoare1)
+DISPLAY TABLE tabela
+SELECT ALL FROM TABELA WHERE coloana1=valoare1
+SELECT ALL FROM TABELA WHERE coloana2=valoare1
+DELETE FROM tabela WHERE coloana2=valoare1
+DISPLAY TABLE tabela
+INSERT INTO tabela VALUES (valoare10, valoare2)
+INSERT INTO tabela VALUES (valoare10, valoare2)
+INSERT INTO tabela VALUES (valoare20, valoare1)
+DISPLAY TABLE tabela
+SELECT coloana1 FROM tabela WHERE coloana2=valoare2
+DROP TABLE tabela
